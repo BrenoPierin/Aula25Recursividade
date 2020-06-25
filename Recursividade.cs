@@ -21,12 +21,13 @@ namespace Aula25Recursividade
             }
         }
 
-        public void GerarSequenciaDeTribonacci(int num1,int num2,int num3, int vezes)
+        //1, 1, 2, 4, 7, 13, 24, 44, 81, 149, 274
+        public void GerarSequenciaDeTribonacci(int num1, int num2, int num3, int vezes)
         {
             if(vezes > 0)
             {
                 System.Console.WriteLine(num1);
-                GerarSequenciaDeTribonacci( num2 , num1+num2+num3, vezes -1);
+               GerarSequenciaDeTribonacci( num2, num3 , num1 + num2 + num3 , vezes -1);
             }
         }
     }

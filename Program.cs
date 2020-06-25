@@ -14,7 +14,7 @@ namespace Aula25Recursividade
             System.Console.WriteLine(recu.GerarFatorial(5));
             Console.ForegroundColor = ConsoleColor.Green;
             System.Console.WriteLine("----------------Tribonacci----------------");
-            recu.GerarSequenciaDeTribonacci(0,2,3,5);
+            recu.GerarSequenciaDeTribonacci( 0, 1, 1, 12);
         }
     }
 }
